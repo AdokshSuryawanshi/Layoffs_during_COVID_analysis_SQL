@@ -1,13 +1,13 @@
 # COVID layoffs Analysis Using SQL
 
-1. Data Cleaning Process
-Step 1:
-Creating a Staging Table for Cleaning
-A duplicate table (staging table) is created to ensure that the original data remains unchanged. This table serves as the workspace for cleaning and transformations.
+#1. Data Cleaning Process
+  Step 1:
+  Creating a Staging Table for Cleaning
+  A duplicate table (staging table) is created to ensure that the original data remains unchanged. This table serves as the workspace for cleaning and transformations.
 
-Step 2: 
-Identifying and Removing Duplicate Records
-A method is used to check for duplicate entries by considering key attributes such as company name, industry, location, total layoffs, and date. Duplicates are assigned unique row numbers, and any records beyond the first occurrence are removed.
+  Step 2: 
+  Identifying and Removing Duplicate Records
+  A method is used to check for duplicate entries by considering key attributes such as company name, industry, location, total layoffs, and date. Duplicates are assigned      unique row numbers, and any records beyond the first occurrence are removed.
 
 Step 3: 
 Standardizing the Data
